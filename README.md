@@ -5,13 +5,6 @@ It highlights key insights such as sales contribution, profit distribution, top-
 
 ---
 
-##  Dashboard Preview
-
-![PRODUCTPERFORMANCEANALYSIS](performarncedashboard.jpg)
-
-
----
-
 ##  Features
 
 - KPI summary (Sales, Profit, Quantity Sold)
