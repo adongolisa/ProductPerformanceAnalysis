@@ -7,9 +7,8 @@ It highlights key insights such as sales contribution, profit distribution, top-
 
 ##  Dashboard Preview
 
-<p align="center">
-  <img src="performarncedashboard.jpg" width="700" />
-</p>
+![PRODUCTPERFORMANCEANALYSIS](performarncedashboard.jpg)
+
 
 ---
 
