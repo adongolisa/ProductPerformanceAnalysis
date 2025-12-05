@@ -1,59 +1,55 @@
-Cookie Sales Performance Dashboard
+ **Cookie Sales Performance Dashboard**
 
-This project is an interactive Excel-based Performance Dashboard analyzing cookie sales across multiple markets. The dashboard visualizes key metrics such as profit trends, units sold, and market–category performance, helping stakeholders quickly understand business performance and seasonal patterns.
+This repository contains a fully interactive Excel Performance Dashboard analyzing cookie sales across multiple global markets. The dashboard highlights trends in profit, units sold, and product performance using dynamic slicers, charts, and pivot tables.
 
- Project Overview
+ **Project Overview**
 
-The goal of this dashboard is to:
+This dashboard was created to help visualize and understand the performance of cookie products across different countries and months. It allows users to:
 
-Track profit by cookie type and market
+1. Track profit by market
 
-Analyze units sold month-to-month
+2. Compare performance of cookie types
 
-Visualize profit trends across the year
+3. Analyze units sold across the year
 
-Provide dynamic filtering based on:
+4. Explore profit trends month-to-month
 
-Date
+Interact with the dashboard using filters (Date, Market, Cookie Type)
 
-Market
+The goal is to support data-driven decision-making with a clear and engaging visual layout.
 
-Product (Cookie Type)
+**Dashboard Features**
+ 1. Profit by Market & Cookie Type
 
-This dashboard was built using PivotTables, PivotCharts, Slicers, and Excel’s built-in interactivity features to make insights accessible and easy to explore.
+A stacked column chart showing profit distribution across markets and cookie categories.
 
-Dashboard Features
-✔️ 1. Profit by Market & Cookie Type
+ 2. Units Sold Each Month
 
-A stacked column chart showing how each cookie contributes to total profit across markets (India, Malaysia, U.K., U.S., Philippines).
+A green line chart displaying monthly sales volume to identify peaks and dips.
 
-✔️ 2. Units Sold Each Month
+ 3. Profit by Month
 
-A line chart visualizing unit sales trends throughout the year to identify seasonality and sales spikes.
+A month-by-month profit trend to track financial performance over the year.
 
-✔️ 3. Profit by Month
+ 4. Dynamic Slicers / Filters
 
-A line chart illustrating profit patterns month-to-month, highlighting peak months and dips.
-
-✔️ 4. Interactive Filters
-
-Users can filter the entire dashboard by:
+Users can filter the dashboard by:
 
 Year
 
 Month
 
-Market
+Country
 
 Cookie Type
 
-This makes the dashboard dynamic and ideal for quick drill-downs.
+All charts update instantly based on the selected filters.
 
- Dataset
+**Dataset Description**
 
 The dataset includes:
 
-Market
+Market / Country
 
 Cookie Type
 
@@ -61,34 +57,61 @@ Units Sold
 
 Profit
 
-Date
+Month & Year
 
-Product Category
+All data is stored inside the Excel workbook and connected to the dashboard via PivotTables.
 
-It is stored in the file:
+**Tools Used**
 
-PERFORMANCE DASHBOARD.xlsx
+Microsoft Excel	Core dashboard creation
+PivotTables	Data summarization
+PivotCharts	Visualizations & trends
+Slicers	Dashboard interactivity
 
- Tools Used
-Tool	Purpose
-Microsoft Excel	Dashboard creation, charts, slicers, interactivity
-PivotTables	Data modeling & summarization
-PivotCharts	Trend visualizations
-Excel Slicers	Filters & interactivity
 
  Dashboard Preview
 
-![Dashboard Screenshot](performancedashboard.jpg)
-
- 
 
 
+![Dashboard Preview](performancedashboard.png)
+
+ **Key Insights** 
+
+1. Chocolate Chip and White Chocolate Macadamia Nut are the top-performing cookie categories.
+
+2. Profit peaks around October–November, suggesting seasonal demand.
 
 
+ How to Use the Dashboard
+
+Download this repository or clone it:
+
+git clone https://github.com/adongolisa/ProductPerformanceAnalysis.git
 
 
-Dashboard interactivity
+Open PERFORMANCEDASHBOARD.xlsx using **Microsoft Excel**.
 
-Trend analysis & business insights
+Use the left-side slicers to filter:
 
-Perfect for your portfolio, interviews, and applications in analytics roles.
+Markets
+
+Months
+
+Cookie Types
+
+Year
+
+**Why This Project Matters**
+
+This project demonstrates strong data analysis and dashboard-building skills, including:
+
+- Analytical thinking
+
+- Business reporting
+
+- Trend interpretation
+
+- Excel visualization mastery
+
+- Insight communication
+
